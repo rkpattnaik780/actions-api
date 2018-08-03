@@ -1,0 +1,25 @@
+db.diseases.insert({ "name" : "Diarrhoea" , "symptoms" : [ "dehydration"] , "complications" : ["Loose frequent bowel movements" ] , "causes" : ["viral infection"] , "annual_deaths" : 1300000 })
+
+db.diseases.insert({ "name" : "Typhoid" , "symptoms" : [ "headache" , "fever" , "pain" , "rash"] , "complications" : ["rose spots" ] , "causes" : ["contaminated water"] , "annual_deaths" : 149000 })
+
+db.diseases.insert({ "name" : "Influenza" , "symptoms" : [ "headache" , "fever" , "sore throat" , "fatigue" , "cough" , "running nose"] , "complications" : ["pneumonia" ] , "causes" : ["influenza viruses"] , "annual_deaths" : 375000 })
+
+db.diseases.insert({ "name" : "Dengue" , "symptoms" : [ "headache" , "fever" , "pain" , "rash"] , "complications" : ["bleeding" , "low blood pressure" ] , "causes" : ["mosquito bite, virus"] , "annual_deaths" : 20000 })
+
+db.diseases.insert({ "name" : "Malaria" , "symptoms" : [ "headache" , "fever" , "vomitting"] , "complications" : ["yellow skin" , "seizures" , "coma"] , "causes" : ["mosquito bite / anopheles"] , "annual_deaths" : 500000 })
+
+db.diseases.insert({ "name" : "Cancer" , "symptoms" : ["bleeding" , "cough"] , "complications" : ["Several varying"] , "causes" : ["genetic mutations"] , "annual_deaths" : 8800000 })
+
+db.diseases.insert({ "Name" : "Measles" , "symptoms" : ["fever" , "cough" , "rash" , "running nose"] , "complications" : ["pneumonia , seizures, encephalitis"] , "causes" :["measles virus"] , "annual_deaths" : 73400 })
+
+db.diseases.insert({ "name" : "Chicken Pox" , "symptoms" : ["itch" , "headache" , "fatigue"] , "complications" : ["blisters and body pain"] , "causes" : ["varicella zoster virus"] , "annual_deaths" : 6400 })
+
+db.diseases.insert({ "name" : "Tuberculosis" , "symptoms" : ["cough" , "fever"] , "complications" : ["blood in the sputum , weight loss"] , "causes" : ["tuberculosis bacteria"] , "annual_deaths" : 1300000 })
+
+db.diseases.insert({ "name" : "Jaundice" , "symptoms" : ["stomach ache" , "fever"] , "complications" : ["weight loss" , "chronic fatigue"] , "causes" : ["high bilirubin levels"] , "annual_deaths" : 100000 })
+
+
+
+[{"symptoms":["dehydration"],"complications":["Loose frequent bowel movements"],"causes":["viral infection"],"_id":"5b6327d026857654af844cd7","name":"Diarrhoea","annual_deaths":1300000},{"symptoms":["headache","fever","pain","rash"],"complications":["rose spots"],"causes":["contaminated water"],"_id":"5b6327e726857654af844cd8","name":"Typhoid","annual_deaths":149000},{"symptoms":["headache","fever","sore throat","fatigue","cough","running nose"],"complications":["pneumonia"],"causes":["influenza viruses"],"_id":"5b6327fb26857654af844cd9","name":"Influenza","annual_deaths":375000},{"symptoms":["headache","fever","pain","rash"],"complications":["bleeding","low blood pressure"],"causes":["mosquito bite, virus"],"_id":"5b63281426857654af844cda","name":"Dengue","annual_deaths":20000},{"symptoms":["headache","fever","vomitting"],"complications":["yellow skin","seizures","coma"],"causes":["mosquito bite / anopheles"],"_id":"5b63282326857654af844cdb","name":"Malaria","annual_deaths":500000},{"symptoms":["bleeding","cough"],"complications":["Several varying"],"causes":["genetic mutations"],"_id":"5b632a5e26857654af844cdc","name":"Cancer","annual_deaths":8800000},{"symptoms":["fever","cough","rash","running nose"],"complications":["pneumonia , seizures, encephalitis"],"causes":["measles virus"],"_id":"5b632bf126857654af844cde","Name":"Measles","annual_deaths":73400},{"symptoms":["itch","headache","fatigue"],"complications":["blisters and body pain"],"causes":["varicella zoster virus"],"_id":"5b632c2726857654af844cdf","name":"Chicken Pox","annual_deaths":6400},{"symptoms":["cough","fever"],"complications":["blood in the sputum , weight loss"],"causes":["tuberculosis bacteria"],"_id":"5b632cbe26857654af844ce0","name":"Tuberculosis","annual_deaths":1300000},{"symptoms":["stomach ache","fever"],"complications":["weight loss","chronic fatigue"],"causes":["high bilirubin levels"],"_id":"5b632e3d26857654af844ce1","name":"Jaundice","annual_deaths":100000}]
+
+
