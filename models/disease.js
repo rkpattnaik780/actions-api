@@ -13,6 +13,6 @@ var diseaseSchema = new Schema({
     annual_deaths: { type: Number }
 });
 
-var diseaseModel = mongoose.model('disease', diseaseSchema);
+var diseaseModel = mongoose.model('disease', diseaseSchema)
 
 module.exports = diseaseModel;
